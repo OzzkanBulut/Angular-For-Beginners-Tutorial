@@ -13,12 +13,13 @@
    - Increment-Decrement operatorleri(++,--)
    - Bitwise Operatörler  
 * Bunların dışında interpolation'da iki değişkeni aritmetik işleme tabi tutabilir, string birleştirme yapabilir, template referansı kullanabilir veya herhangi bir fonksiyonu tetikleyebilirsiniz.
+  
 ![image](https://github.com/OzzkanBulut/Angular-For-Beginners-Tutorial/assets/67637654/96930195-ccb5-4218-906d-d1f1083b2a0b)
 ![image](https://github.com/OzzkanBulut/Angular-For-Beginners-Tutorial/assets/67637654/529c78c1-81e8-44ff-981b-e30983305ce4)
 
 ## Interpolation'da Script/HTML Kodları Çalıştırılabilir mi?
 * Angular, Interpolation ile DOM' aekleyeceği içeriği her şeyden önce sterilize ederek Cross-Site Scripting Security Bugs(XXS) hatalarına karşı bir önlem alır. Bu yüzden interpolation ile gelen Script veya HTML kodları handle edilmeksizin oldukları gibi(metinsel olarak) yansıtılırlar.
-* ![image](https://github.com/OzzkanBulut/Angular-For-Beginners-Tutorial/assets/67637654/4e5674a6-c0ae-42f4-8ff0-03304a33d515)
+![image](https://github.com/OzzkanBulut/Angular-For-Beginners-Tutorial/assets/67637654/4e5674a6-c0ae-42f4-8ff0-03304a33d515)
 
 * ## NgNonBindable Nedir?
 * * Interpolation operatörünün compile edilmesini istemediğiniz noktalarda bu özelliği aşağıdaki gibi devreye sokabilirsiniz:
